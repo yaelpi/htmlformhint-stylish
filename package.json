@@ -1,7 +1,7 @@
 {
-  "name": "htmlhint-stylish",
-  "version": "1.0.3",
-  "description": "A Stylish reporter for HTMLHint",
+  "name": "htmlformhint-stylish",
+  "version": "1.0.0",
+  "description": "A Stylish reporter for HTMLFormHint",
   "main": "index.js",
   "engines": {
     "node": ">=0.10.0"
@@ -14,12 +14,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/doshprompt/htmlhint-stylish.git"
+    "url": "git+https://github.com/yaelpi/htmlformhint-stylish.git"
   },
   "keywords": [
     "htmlhint",
     "gulp-htmlhint",
-    "jshint-stylish",
+    "jshintform-stylish",
     "reporter",
     "htmlhint-reporter",
     "formatter",
@@ -30,20 +30,21 @@
     "elegant",
     "pretty"
   ],
-  "author": "Rahul Doshi <rahuld223@yahoo.com>",
+  "author": "Yael Pinkus <yaelison@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/doshprompt/htmlhint-stylish/issues"
+    "url": "https://github.com/yaelpi/htmlformhint-stylish/issues"
   },
-  "homepage": "https://github.com/doshprompt/htmlhint-stylish#readme",
+  "homepage": "https://github.com/yaelpi/htmlformhint-stylish#readme",
   "dependencies": {
-    "jshint-stylish": "^2.0.1"
+    "jshintform-stylish": "^1.0.0"
   },
   "devDependencies": {
     "assert": "^1.3.0",
     "gulp": "^3.9.0",
     "gulp-htmlhint": "^0.2.1",
     "gulp-util": "^3.0.6",
+    "jshintform-stylish": "^1.0.0",
     "mocha": "^2.2.5",
     "vinyl-fs": "^1.0.0"
   }

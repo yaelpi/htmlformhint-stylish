@@ -1,4 +1,4 @@
-var stylish = require('jshint-stylish'),
+var stylish = require('jshintform-stylish'),
     path = require('path');
 
 module.exports = function(file) {
